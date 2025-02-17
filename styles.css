@@ -1,0 +1,223 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  
+    
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #1F2937;
+  }
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}
+
+  header {
+    background-color: #1F2937;
+}
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+  }
+
+  nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+  }
+
+  
+  /* Dark Background (Hero and Footer) */
+  .hero, .footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+  }
+
+  .hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+  }
+
+  .hero-text {
+    max-width: 40%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;    
+
+  }
+  
+  /* Hero Image */
+  .hero img {
+    
+    height: auto;
+  }
+  
+  /* Hero Main Text */
+  .hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+  }
+  
+  /* Hero Secondary Text and Header Link Text */
+  .hero p, .header a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+  }
+  
+  /* Header Logo Text */
+  .header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+  }
+  
+  /* Button (Call to Action) */
+  .button {
+    background-color: #3882F6;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .button:hover {
+    background-color: #2c6cdf;
+  }
+
+ .info .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+    gap: 80px;
+
+  }
+
+  .random-info-images {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .random-info-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 250px;
+    gap: 5px;
+    
+  }
+  
+  .random-info-image img {
+    
+    object-fit: cover;
+    border-radius: 10px;
+    border: solid blue 5px;
+  }
+  
+  .random-info-image-text {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+ 
+  
+  /* Information Header Text */
+  .info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+  }
+  
+  /* Quote Section Background */
+  .quote {
+    background-color: #E5E7EB;
+    padding: 200px;
+  }
+  
+  /* Quote Text */
+  .quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+  }
+  
+  /* Quote Author */
+  .quote-author {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    color: #1F2937;
+  }
+  
+
+  /* Call to Action Section */
+
+  .call-to-action {
+    padding: 90px 0;
+  }
+
+  .call-to-action .container{
+    background-color: #3882F6;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #F9FAF8;
+    border-radius: 10px;
+  }
+  
+  /* Call to Action Text */
+  .call-to-action-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  /* Call to Action Header Text */
+  .call-to-action-text-header {
+    font-size: 24px;
+    font-weight: bold;
+   
+  }
+
+  .cta.button {
+    border: solid 2px #F9FAF8;
+    color: #F9FAF8;
+  }
+
+  footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 50px 0;
+  }
+  

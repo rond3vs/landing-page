@@ -1,1 +1,1 @@
-# landing-page
+# landing-page for the odin project using just html and css.
